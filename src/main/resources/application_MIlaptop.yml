@@ -23,6 +23,7 @@ spring:
 
         #指定资源文件夹路径
       thymeleaf:
+        cache: false
           prefix: classpath:/view/
   jpa:
     generate-ddl: true
