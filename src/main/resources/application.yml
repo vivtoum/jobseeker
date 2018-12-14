@@ -1,4 +1,4 @@
-#手提本地库
+#阿里云服务器
 server:
   port: 80
   session-timeout: 30
@@ -11,7 +11,7 @@ spring:
   profiles:
     active: MIlaptop
   datasource:
-    url: jdbc:mysql://localhost:3306/springbootdemo?useSSL=false
+    url: jdbc:mysql://39.104.107.186:3306/springbootdemo?useSSL=false
     username: root
     password: 123456
     tomcat:

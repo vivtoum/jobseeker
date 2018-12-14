@@ -3,7 +3,7 @@ package com.example.demo.Domain;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "record.sql")
+@Table(name = "record")
 public class Record {
 
  @Id
